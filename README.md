@@ -1,4 +1,4 @@
-# IT491 Capstone Project | Academic Skyline Heroes
+# IT491 Capstone Project | *Academic Skyline Heroes*
 
 #Primary Objectives
 * Develop a 2D minigame through the use of the Unity engine that will help provide a means for students (K-5) to work harder in school. 
