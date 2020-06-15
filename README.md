@@ -27,7 +27,7 @@ The database was used to store the following: Username, Password, Hero name, Hig
 * [Unity Development Platform](https://visualstudio.microsoft.com/vs/)
 * [MySQL Database](https://www.mysql.com/)
 
-# Languages Used
+# Programming Languages
 * C#
 * PHP
 
