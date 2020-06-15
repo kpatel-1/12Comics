@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BasicEnemy
+  - Despawner
+  - player Wall
+  - Canvas
+  - player_shot
+  - Boss
+  - enemy_shot
+  - Gold_enemy
+  - medKit
+  - MusicManager
+  - SFXManager
+  - FxTemporaire
+  - Laser_Beam
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Barrier
+  - Player_Shot
+  - Enemy
+  - Fade
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

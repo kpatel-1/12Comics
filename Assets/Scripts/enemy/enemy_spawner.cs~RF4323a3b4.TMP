@@ -1,0 +1,250 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class enemy_spawner : MonoBehaviour
+{
+
+    public GameObject enemyManager;
+    public enemy[] Enemies;
+    public GameObject Boss;
+
+    public float x_position;
+    public float y_zone;
+    public float timeInBetween;
+    float timer;
+
+    bool spawning;
+    public float waveKills;
+    public float maxEnemiesOnscreen;
+    bool on = true;
+
+    //wave count declarations
+    int wave_count;
+    public Text wave_text;
+    bool wave_bool;
+
+    enum WaveState
+    {
+        WAVE,
+        ENEMY,
+        BOSS,
+        RESET
+    }
+    WaveState waveState;
+
+    void Start()
+    {
+        enemyManager = GameObject.Find("EnemyManager");
+
+        spawning = true;
+        timer = 0;
+
+        wave_count = 0;
+        wave_bool = true;
+        wave_text.gameObject.SetActive(false);
+
+        waveState = WaveState.WAVE;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        switch (waveState)
+        {
+            case WaveState.WAVE:
+                StartCoroutine("wave_show");
+                break;
+
+            case WaveState.ENEMY:
+                spawn_wave();
+                spawn_boss_check();
+                break;
+
+            case WaveState.BOSS:
+                if (Boss.GetComponent<Boss>().isAlive_check() == false)
+                    waveState = WaveState.RESET;
+                break;
+
+            case WaveState.RESET:
+                waveKills *= 1.5f;
+                Boss.GetComponent<Boss>().reset_boss();
+                enemyManager.GetComponent<enemy_manager>().enemiesKilled_current = 0;
+                on = true;
+                wave_bool = true;
+                spawning = true;
+
+                waveState = WaveState.WAVE;
+                break;
+        }
+    }
+
+    //============================
+    //          Functions
+    //============================
+
+    void spawn_wave()
+    {
+        enemy enemy_toSpawn;
+        int chosen = Random.RandomRange(0, 100);
+        int goldSpawn = Random.RandomRange(0, 10000);
+
+        if (goldSpawn >= 9990)
+        {
+            enemy_toSpawn = Enemies[3];
+            Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + Random.RandomRange((0 - y_zone), y_zone)), Quaternion.identity);
+        }
+
+        //wave 1: basic enemy only
+        if (wave_count == 1)
+            enemy_toSpawn = Enemies[0];
+
+        //wave 2: heavy only
+        else if (wave_count == 2)
+            enemy_toSpawn = Enemies[2];
+
+        //wave 3: shooter only
+        else if (wave_count == 3)
+            enemy_toSpawn = Enemies[1];
+
+        //wave 4 and over
+        else
+        {
+            if (chosen <= 80)
+                enemy_toSpawn = Enemies[0];
+            else if (chosen > 80 && chosen <= 90)
+                enemy_toSpawn = Enemies[1];
+            else
+                enemy_toSpawn = Enemies[2];
+        }
+        //
+
+        if (spawning && enemyManager.GetComponent<enemy_manager>().active_enemies.Count <= maxEnemiesOnscreen)
+            timer += Time.deltaTime;
+
+        if (timer >= timeInBetween)
+        {
+            //Debug.Log(Enemy.name + "has spawned");
+            Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + Random.RandomRange((0 - y_zone), y_zone)), Quaternion.identity);
+            //StartCoroutine("V_pattern_right", enemy_toSpawn);
+            timer = 0;
+        }
+    }
+
+
+    void spawn_boss_check()
+    {
+        bool gold = true;
+        for (int i = 0; i < enemyManager.GetComponent<enemy_manager>().active_enemies.Count; i++)
+        {
+            if (enemyManager.GetComponent<enemy_manager>().active_enemies[i] = Enemies[3])
+                gold = true;
+        }
+
+        if (enemyManager.GetComponent<enemy_manager>().enemiesKilled_current >= waveKills)
+        {
+            spawning = false;
+            if (enemyManager.GetComponent<enemy_manager>().active_enemies.Count > 0)
+            {
+
+                //Debug.Log("finish the enemies");
+            }
+            else
+            {
+                if (on)
+                {
+                    on = false;
+                    StartCoroutine("spawn_boss");
+                }
+            }
+        }
+    }
+
+    //============================
+    //          Coroutines
+    //============================
+
+    IEnumerator spawn_boss()
+    {
+        yield return new WaitForSeconds(1);
+        Boss.SetActive(true);
+        waveState = WaveState.BOSS;
+    }
+
+    IEnumerator wave_show()
+    {
+        if (wave_bool)
+        {
+            wave_bool = false;
+            wave_count++;
+            wave_text.text = "Wave: " + wave_count;
+            wave_text.gameObject.SetActive(true);
+
+            yield return new WaitForSeconds(2);
+
+            wave_text.gameObject.SetActive(false);
+            waveState = WaveState.ENEMY;
+        }
+    }
+
+    IEnumerator X_pattern(enemy enemy_toSpawn)
+    {
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + 1), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - 1), Quaternion.identity);
+
+        yield return new WaitForSeconds(.5f);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+        yield return new WaitForSeconds(.5f);
+
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + 1), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - 1), Quaternion.identity);
+    }
+
+    IEnumerator T_pattern(enemy enemy_toSpawn)
+    {
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+
+        yield return new WaitForSeconds(.25f);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + .5f), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + 1f), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - .5f), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - 1f), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+    }
+
+    IEnumerator V_pattern_left(enemy enemy_toSpawn)
+    {
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + .5f), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - .5f), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + 1f), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - 1f), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+    }
+
+    IEnumerator V_pattern_right(enemy enemy_toSpawn)
+    {
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + 1f), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - 1f), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y + .5f), Quaternion.identity);
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y - .5f), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+
+        Instantiate(enemy_toSpawn, new Vector2(x_position, this.transform.position.y), Quaternion.identity);
+        yield return new WaitForSeconds(.25f);
+    }
+}

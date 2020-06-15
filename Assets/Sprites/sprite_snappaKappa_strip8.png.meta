@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 788409e0acff3504190aaea5b7459ff4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3549305565758571604
+    second: sprite_snappaKappa_strip8_0
+  - first:
+      213: -4197807192925931652
+    second: sprite_snappaKappa_strip8_1
+  - first:
+      213: -4056950780090325517
+    second: sprite_snappaKappa_strip8_2
+  - first:
+      213: -3778545446144533133
+    second: sprite_snappaKappa_strip8_3
+  - first:
+      213: 6509810252512976466
+    second: sprite_snappaKappa_strip8_4
+  - first:
+      213: 1905090896150408281
+    second: sprite_snappaKappa_strip8_5
+  - first:
+      213: 179275404193104103
+    second: sprite_snappaKappa_strip8_6
+  - first:
+      213: -3885576073293148000
+    second: sprite_snappaKappa_strip8_7
+  - first:
+      213: -4703412245242474281
+    second: sprite_snappaKappa_strip8_8
+  - first:
+      213: 6695810006569449531
+    second: sprite_snappaKappa_strip8_9
+  - first:
+      213: 7988240401088190169
+    second: sprite_snappaKappa_strip8_10
+  - first:
+      213: 3376315993133252695
+    second: sprite_snappaKappa_strip8_11
+  - first:
+      213: 5307130953046331630
+    second: sprite_snappaKappa_strip8_12
+  - first:
+      213: 4208495080838167802
+    second: sprite_snappaKappa_strip8_13
+  - first:
+      213: -1926930343611255443
+    second: sprite_snappaKappa_strip8_14
+  - first:
+      213: -6916218671164407789
+    second: sprite_snappaKappa_strip8_15
+  - first:
+      213: 8017467898225567663
+    second: sprite_snappaKappa_strip8_16
+  - first:
+      213: -1294488427335861783
+    second: sprite_snappaKappa_strip8_17
+  - first:
+      213: -328160599809393958
+    second: sprite_snappaKappa_strip8_18
+  - first:
+      213: -1217139733907616623
+    second: sprite_snappaKappa_strip8_19
+  - first:
+      213: -1699509239294072689
+    second: sprite_snappaKappa_strip8_20
+  - first:
+      213: -6948173446790561523
+    second: sprite_snappaKappa_strip8_21
+  - first:
+      213: 7654292189936871027
+    second: sprite_snappaKappa_strip8_22
+  - first:
+      213: -5591943563226004081
+    second: sprite_snappaKappa_strip8_23
+  - first:
+      213: -6876418583231011188
+    second: sprite_snappaKappa_strip8_24
+  - first:
+      213: 9088140207659159443
+    second: sprite_snappaKappa_strip8_25
+  - first:
+      213: -2813886426148735719
+    second: sprite_snappaKappa_strip8_26
+  - first:
+      213: -2130288696142466728
+    second: sprite_snappaKappa_strip8_27
+  - first:
+      213: 2057289267865160040
+    second: sprite_snappaKappa_strip8_28
+  - first:
+      213: 2160483976569590002
+    second: sprite_snappaKappa_strip8_29
+  - first:
+      213: 1376831167703237166
+    second: sprite_snappaKappa_strip8_30
+  - first:
+      213: -786165940935501166
+    second: sprite_snappaKappa_strip8_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabb4a994655ebec0800000000000000
+      internalID: -3549305565758571604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77f11659946eb5c0800000000000000
+      internalID: -4197807192925931652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5e87992c0d2b7c0800000000000000
+      internalID: -4056950780090325517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d92e2bfe8ef8bc0800000000000000
+      internalID: -3778545446144533133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e5b382fed775a50800000000000000
+      internalID: 6509810252512976466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c20e1931e307a10800000000000000
+      internalID: 1905090896150408281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e005efb70aec7200800000000000000
+      internalID: 179275404193104103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_snappaKappa_strip8_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0da93e529a31ac0800000000000000
+      internalID: -3885576073293148000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

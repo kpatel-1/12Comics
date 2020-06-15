@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: b40d68a7409a54143b240445c5a65a34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3562262877355909829
+    second: MeagaLaser_0
+  - first:
+      213: -6152240417690151598
+    second: MeagaLaser_1
+  - first:
+      213: 4927556699848547043
+    second: MeagaLaser_2
+  - first:
+      213: 4105558564688826349
+    second: MeagaLaser_3
+  - first:
+      213: -5619751493981058175
+    second: MeagaLaser_4
+  - first:
+      213: 3429780059355227932
+    second: MeagaLaser_5
+  - first:
+      213: 1777377388172217829
+    second: MeagaLaser_6
+  - first:
+      213: 9173505310402734300
+    second: MeagaLaser_7
+  - first:
+      213: 728429959397717016
+    second: MeagaLaser_8
+  - first:
+      213: 7299454386342199305
+    second: MeagaLaser_9
+  - first:
+      213: 4112673588824410238
+    second: MeagaLaser_10
+  - first:
+      213: -7871442512207605822
+    second: MeagaLaser_11
+  - first:
+      213: -1354097000068252586
+    second: MeagaLaser_0
+  - first:
+      213: -7815179838906928527
+    second: MeagaLaser_1
+  - first:
+      213: 5853959750217957953
+    second: MeagaLaser_2
+  - first:
+      213: -4994108261028230394
+    second: MeagaLaser_3
+  - first:
+      213: 7573048070473947098
+    second: MeagaLaser_4
+  - first:
+      213: 5116928459306308850
+    second: MeagaLaser_5
+  - first:
+      213: -3420786711538901356
+    second: MeagaLaser_6
+  - first:
+      213: 3503846336824493490
+    second: MeagaLaser_7
+  - first:
+      213: 5979275364842287568
+    second: MeagaLaser_8
+  - first:
+      213: -1541268826535208784
+    second: MeagaLaser_9
+  - first:
+      213: 6292996652225532822
+    second: MeagaLaser_10
+  - first:
+      213: 6061826007196403037
+    second: MeagaLaser_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeagaLaser_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 537
+        width: 12
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c7287e3f7453de0800000000000000
+      internalID: -1354097000068252586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 536
+        width: 12
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727826d757ea8390800000000000000
+      internalID: -7815179838906928527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 538
+        width: 12
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1420d2190617d3150800000000000000
+      internalID: 5853959750217957953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 363
+        width: 20
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b819b1ffc51bab0800000000000000
+      internalID: -4994108261028230394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 362
+        width: 20
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad79e8ba81fd81960800000000000000
+      internalID: 7573048070473947098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 364
+        width: 20
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f41a06b25bf20740800000000000000
+      internalID: 5116928459306308850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 188
+        width: 28
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ed8562c9ce680d0800000000000000
+      internalID: -3420786711538901356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 187
+        width: 28
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54afddda920a030800000000000000
+      internalID: 3503846336824493490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 189
+        width: 28
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d13ba7c347aaf250800000000000000
+      internalID: 5979275364842287568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 44
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b85cf21b205c9ae0800000000000000
+      internalID: -1541268826535208784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 44
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69310ac0d17355750800000000000000
+      internalID: 6292996652225532822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeagaLaser_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 13
+        width: 44
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558a29f2aeef1450800000000000000
+      internalID: 6061826007196403037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
