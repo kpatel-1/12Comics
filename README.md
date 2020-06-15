@@ -1,6 +1,6 @@
 # IT491 Capstone Project | *Academic Skyline Heroes*
 
-# Primary Objectives
+# Objectives
 * Develop a 2D minigame through the use of the Unity engine that will help provide a means for students (K-5) to work harder in school. 
 * Heroes are created by students through a 3rd party hero creator found on 12Comics.com and ported into the game. 
 * The students heroes can get stronger via earning points for achieving betters grades in school.
