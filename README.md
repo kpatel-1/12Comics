@@ -24,7 +24,7 @@ The database was used to store the following: Username, Password, Hero name, Hig
 
 # Resources
 * [Visual Studio 2019 IDE](https://visualstudio.microsoft.com/vs/)
-* [Unity Development Platform](https://visualstudio.microsoft.com/vs/)
+* [Unity Development Platform](https://unity.com/)
 * [MySQL Database](https://www.mysql.com/)
 
 # Programming Languages
