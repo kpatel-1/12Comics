@@ -32,6 +32,6 @@ The database was used to store the following: Username, Password, Hero name, Hig
 * PHP
 
 # Authors
-* Mohamed R. Khan
-* Krishan I. Patel 
+* Mohamed Khan
+* Krishan Patel 
 * Oris Feliz
